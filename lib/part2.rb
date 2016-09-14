@@ -18,14 +18,3 @@ def rps_tournament_winner(tournament)
     return rps_tournament_winner([rps_tournament_winner(tournament[0]), rps_tournament_winner(tournament[1])])
   end
 end
-
-#feel free to add your own helper functions as needed
-p rps_game_winner([["a", "r"], ["b", "p"]])
-p rps_game_winner([["a", "p"], ["b", "s"]])
-p rps_game_winner([["a", "s"], ["b", "p"]])
-p rps_game_winner([["a", "r"], ["b", "s"]])
-p rps_game_winner([["a", "s"], ["b", "r"]])
-p rps_game_winner([["a", "p"], ["b", "r"]])
-p rps_game_winner([["a", "p"], ["b", "p"]])
-a= [[[ ["Joe", "P"], ["Mary", "S"] ],[ ["Bob", "R"], ["Alice", "S"] ]],[[ ["Steve", "S"], ["Jane", "P"] ],[ ["Ted", "R"], ["Carol", "P"] ]]]
-p rps_tournament_winner(a)
